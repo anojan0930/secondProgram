@@ -6,7 +6,6 @@ internal class Program
     {
         printHello();
         GreetUser("Anojan");
-        MultibleMethod("Anojan","Anoj");
     }
     static void printHello()
     {
@@ -17,8 +16,5 @@ internal class Program
     {
         Console.WriteLine("hello "+name);
     }
-    static void MultibleMethod(string name , string name1)
-    {
-        Console.WriteLine(name +  \n  + name1);
-    }
+    
 }
